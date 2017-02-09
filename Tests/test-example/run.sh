@@ -5,7 +5,7 @@ LLVM_BIN=/LLVM_ROOT/build/bin
 # path to CSE231.so
 LLVM_SO=/LLVM_ROOT/build/lib
 # path to lib231.c
-LIB_DIR=/lib231
+LIB_DIR=/tests
 # path to the test directory
 TEST_DIR=.
 
