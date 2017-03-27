@@ -33,7 +33,7 @@ namespace {
                     NULL));
             for (Function::iterator B = F.begin(), BE = F.end(); B != BE; ++B) {
                 for (BasicBlock::iterator I = B->begin(), IE = B->end(); I != IE; ++I) {
-                    unsigned tmpOpCode = (*I).getOpcode();
+                    unsigned tmpOpCode = I->getOpcode();
                     if (tmpOpCode==2) {
                         unsigned num = I->getNumOperands();
                         if (num<=1)
